@@ -1,0 +1,149 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+@import url(https://fonts.google.com/specimen/Karla);
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+body {
+  background-color: hsl(204, 43%, 93%);
+}
+
+.parent-wrapper {
+  width: 80%;
+  margin: 5rem auto;
+  background-color: white;
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* commons */
+
+.m-top {
+  margin-bottom: 6%;
+}
+
+/* upper card */
+
+.upper-card {
+  padding: 5%;
+
+  /* outline: 2px solid red; */
+}
+
+.upper-card h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.6rem;
+}
+
+.upper-card h2 {
+  color: hsl(71, 73%, 54%);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+
+.upper-card h2 {
+  color: hsl(71, 73%, 54%);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+
+.upper-card p {
+  color: hsl(218, 22%, 67%);
+  line-height: 2.3rem;
+  font-size: 1rem;
+  word-wrap: 5px;
+  font-weight: 400;
+}
+
+/* end of upper card */
+
+/* card bottom-left */
+
+.card-left {
+  padding: 5%;
+  background-color: hsl(179, 59%, 43%);
+  color: white;
+}
+
+.card-left h1 {
+  font-size: 1.4rem;
+}
+
+.card-left p {
+  font-weight: 200;
+}
+
+span {
+  color: rgba(255, 255, 255);
+  font-size: 2.5rem;
+}
+
+#per-month {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#access {
+  font-size: 1.3rem;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+
+button {
+  width: 100%;
+  padding: 4%;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.2);
+}
+
+/*  card-bottom right */
+
+.card-right {
+  padding: 5%;
+  background-color: rgb(42, 178, 175);
+}
+
+.card-right h1 {
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 500;
+  padding-bottom: 5%;
+}
+
+.card-right ul li {
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 2%;
+}
+
+/*  media queries : large device */
+
+@media (min-width: 900px) {
+  .bottom-cards {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card-left {
+    width: 50%;
+  }
+
+  .card-right {
+    width: 50%;
+  }
+}
